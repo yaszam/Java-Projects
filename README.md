@@ -13,4 +13,4 @@ The unspecified indexes are not stored within the internal structure of the clas
 
 
 Once I completed this project, I had realized the way in which I find the size of the list is slow. To improve my implementation I would have a "size" counter
-be incremented when the user adds an item to the list. This would make my implementation cosiderably faster.
+be incremented when the user adds an item to the list. This would make my implementation considerably faster.
