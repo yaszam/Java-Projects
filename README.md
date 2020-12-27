@@ -1,4 +1,7 @@
-# Java-Projects #SparseList
+# Java-Projects 
+
+SparseList Class
+
 An assignment from my 2011 Data Structures course. 
 We are to create a sparse list using the List Interface in which an element may be inserted at any non negative integer, with no restrictions.
 Its behaviour is similar to a javascript list. Concepts such as inheritance and generics are used.
