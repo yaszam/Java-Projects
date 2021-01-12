@@ -2,7 +2,7 @@ A java project from my Advanced Object Oriented Programming course.
 
 I was tasked to create an Expression class which creates and evaluates mathematical expressions using its child classes (Addition, Multiplication, GreaterThan, etc).
 
-I was then tasked to use an ExpressionsCollector class which collects the expressions created in Expression and performs an operation between them. 
+I was then tasked to use an ExpressionsCollector class which collects the expressions objects created in Expression and performs an operation between them. 
 This is done through the ExpressionCollector child classes (AddAll, ConjoinAll, etc). 
 The ExpressionCollector class was given partially filled, I was responsible for completing the addExpression(int left, String op, int right) method.
 
