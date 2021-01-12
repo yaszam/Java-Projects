@@ -465,15 +465,8 @@ public class SparseList<E> implements List<E>
 		System.out.println("size:" + mylist.size());
 		System.out.println(mylist.get(5));
 		
-		System.out.println(mylist.get(4));
-		System.out.println(mylist.get(2));
 		System.out.println(mylist.remove(0));
 		System.out.println(mylist.toString());
-		System.out.println("size:" + mylist.size());
-		
-		System.out.println(mylist.remove(2));
-		System.out.println(mylist.toString());
-		System.out.println("size:" + mylist.size());
 		
 		System.out.println(mylist.remove(3));
 		System.out.println(mylist.toString());
@@ -483,7 +476,7 @@ public class SparseList<E> implements List<E>
 		System.out.println("-------------------------");
 		
 		SparseList<Double> list = new SparseList<Double>();
-		list.add(2.5);      //figure out shifting
+		list.add(2.5);     
 		list.add(5,3.3);
 		list.add(6.0);
 		System.out.println(list.toString()); 
@@ -495,15 +488,9 @@ public class SparseList<E> implements List<E>
 		SparseList<Double> list2 = new SparseList<Double>();
 		System.out.println(list2.isEmpty());
 		System.out.println(list2.size());
-		System.out.println(list2.toString());
 		list2.add(5, 4.3);
 		System.out.println(list2.toString());
 		
-		list2.remove(4);
-		System.out.println(list2.toString());
-		//System.out.println(list2.get(5));
-	    list2.set(-10, 9.2);   
-	    System.out.println(list2.toString());
 	} */
  
 	
